@@ -1,0 +1,17 @@
+﻿<h3>MatControlTest</h3>
+<MatButton OnClick="@Click" Icon=@iconText>Text @ButtonState</MatButton>
+@code {
+    public string ButtonState { get; set; } = "";
+
+    [Parameter]
+    public string iconText { get; set; }
+
+    void Click(MouseEventArgs e)
+    {
+        if (ButtonState.Contains("Checked"))
+            ButtonState = "Cancel";
+        else
+            ButtonState = "Checked";
+
+    }
+}

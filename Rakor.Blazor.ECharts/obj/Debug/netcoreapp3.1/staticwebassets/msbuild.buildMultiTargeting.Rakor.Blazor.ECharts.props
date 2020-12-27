@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Rakor.Blazor.ECharts.props" />
+</Project>

@@ -1,0 +1,39 @@
+﻿<Project>
+  <ItemGroup>
+    <StaticWebAsset Include="$(MSBuildThisFileDirectory)..\staticwebassets\js\core.js">
+      <SourceType>Package</SourceType>
+      <SourceId>Rakor.Blazor.ECharts</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Rakor.Blazor.ECharts</BasePath>
+      <RelativePath>js\core.js</RelativePath>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$(MSBuildThisFileDirectory)..\staticwebassets\js\echarts-4.5.js">
+      <SourceType>Package</SourceType>
+      <SourceId>Rakor.Blazor.ECharts</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Rakor.Blazor.ECharts</BasePath>
+      <RelativePath>js\echarts-4.5.js</RelativePath>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$(MSBuildThisFileDirectory)..\staticwebassets\js\echarts-4.5.min.js">
+      <SourceType>Package</SourceType>
+      <SourceId>Rakor.Blazor.ECharts</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Rakor.Blazor.ECharts</BasePath>
+      <RelativePath>js\echarts-4.5.min.js</RelativePath>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$(MSBuildThisFileDirectory)..\staticwebassets\js\jquery-3.4.1.js">
+      <SourceType>Package</SourceType>
+      <SourceId>Rakor.Blazor.ECharts</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Rakor.Blazor.ECharts</BasePath>
+      <RelativePath>js\jquery-3.4.1.js</RelativePath>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$(MSBuildThisFileDirectory)..\staticwebassets\js\jquery-3.4.1.min.js">
+      <SourceType>Package</SourceType>
+      <SourceId>Rakor.Blazor.ECharts</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Rakor.Blazor.ECharts</BasePath>
+      <RelativePath>js\jquery-3.4.1.min.js</RelativePath>
+    </StaticWebAsset>
+  </ItemGroup>
+</Project>

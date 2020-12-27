@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Rakor.Blazor.ECharts</id>
+    <version>0.4.3</version>
+    <authors>rakor</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectUrl>https://github.com/lishewen/BlazorECharts</projectUrl>
+    <description>Blazor版本的ECharts图表组件
+演示地址：http://101.132.118.176:8123/line/line1
+开源地址：https://github.com/caopengfei/BlazorECharts
+使用方式见Demo项目</description>
+    <tags>Blazor,.net core,ECharts</tags>
+    <repository type="github" url="https://github.com/lishewen/BlazorECharts" />
+    <dependencies>
+      <group targetFramework=".NETCoreApp3.1">
+        <dependency id="Newtonsoft.Json" version="12.0.3" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <frameworkReferences>
+      <group targetFramework=".NETCoreApp3.1">
+        <frameworkReference name="Microsoft.AspNetCore.App" />
+      </group>
+    </frameworkReferences>
+  </metadata>
+  <files>
+    <file src="E:\c# project\Blazor\MatBlazor-master\src\Rakor.Blazor.ECharts\bin\Debug\netcoreapp3.1\Rakor.Blazor.ECharts.dll" target="lib\netcoreapp3.1\Rakor.Blazor.ECharts.dll" />
+    <file src="E:\c# project\Blazor\MatBlazor-master\src\Rakor.Blazor.ECharts\obj\Debug\netcoreapp3.1\staticwebassets\msbuild.Rakor.Blazor.ECharts.Microsoft.AspNetCore.StaticWebAssets.props" target="build\Microsoft.AspNetCore.StaticWebAssets.props" />
+    <file src="E:\c# project\Blazor\MatBlazor-master\src\Rakor.Blazor.ECharts\obj\Debug\netcoreapp3.1\staticwebassets\msbuild.build.Rakor.Blazor.ECharts.props" target="build\Rakor.Blazor.ECharts.props" />
+    <file src="E:\c# project\Blazor\MatBlazor-master\src\Rakor.Blazor.ECharts\obj\Debug\netcoreapp3.1\staticwebassets\msbuild.buildMultiTargeting.Rakor.Blazor.ECharts.props" target="buildMultiTargeting\Rakor.Blazor.ECharts.props" />
+    <file src="E:\c# project\Blazor\MatBlazor-master\src\Rakor.Blazor.ECharts\obj\Debug\netcoreapp3.1\staticwebassets\msbuild.buildTransitive.Rakor.Blazor.ECharts.props" target="buildTransitive\Rakor.Blazor.ECharts.props" />
+    <file src="E:\c# project\Blazor\MatBlazor-master\src\Rakor.Blazor.ECharts\wwwroot\js\core.js" target="staticwebassets\js\core.js" />
+    <file src="E:\c# project\Blazor\MatBlazor-master\src\Rakor.Blazor.ECharts\wwwroot\js\echarts-4.5.js" target="staticwebassets\js\echarts-4.5.js" />
+    <file src="E:\c# project\Blazor\MatBlazor-master\src\Rakor.Blazor.ECharts\wwwroot\js\echarts-4.5.min.js" target="staticwebassets\js\echarts-4.5.min.js" />
+    <file src="E:\c# project\Blazor\MatBlazor-master\src\Rakor.Blazor.ECharts\wwwroot\js\jquery-3.4.1.js" target="staticwebassets\js\jquery-3.4.1.js" />
+    <file src="E:\c# project\Blazor\MatBlazor-master\src\Rakor.Blazor.ECharts\wwwroot\js\jquery-3.4.1.min.js" target="staticwebassets\js\jquery-3.4.1.min.js" />
+  </files>
+</package>

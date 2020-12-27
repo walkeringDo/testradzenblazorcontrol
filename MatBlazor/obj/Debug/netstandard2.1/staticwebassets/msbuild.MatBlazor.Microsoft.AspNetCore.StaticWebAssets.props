@@ -1,0 +1,18 @@
+﻿<Project>
+  <ItemGroup>
+    <StaticWebAsset Include="$(MSBuildThisFileDirectory)..\staticwebassets\dist\matBlazor.css">
+      <SourceType>Package</SourceType>
+      <SourceId>MatBlazor</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/MatBlazor</BasePath>
+      <RelativePath>dist\matBlazor.css</RelativePath>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$(MSBuildThisFileDirectory)..\staticwebassets\dist\matBlazor.js">
+      <SourceType>Package</SourceType>
+      <SourceId>MatBlazor</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/MatBlazor</BasePath>
+      <RelativePath>dist\matBlazor.js</RelativePath>
+    </StaticWebAsset>
+  </ItemGroup>
+</Project>

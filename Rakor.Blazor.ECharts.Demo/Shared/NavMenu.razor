@@ -1,0 +1,58 @@
+﻿<BCard Style="background-color:#20222A;" Shadow="@ShadowShowType.Never">
+    <Header>
+        ECharts 示例
+    </Header>
+    <Body>
+        <BMenu DefaultActive="0" Mode="@MenuMode.Vertical" BackgroundColor="#20222A" ActiveTextColor="#FFFFFF" TextColor="rgba(255,255,255,.7)" HoverColor="#434A50">
+            <BSubMenu Label="折线图" Icon="el-icon-folder">
+                <BMenuItem Route="/line/line1" Icon="el-icon-tickets">基础折线图</BMenuItem>
+                <BMenuItem Route="/line/line2" Icon="el-icon-tickets">堆叠区域图</BMenuItem>
+                <BMenuItem Route="/line/line3" Icon="el-icon-tickets">堆叠折线图</BMenuItem>
+                <BMenuItem Route="/line/line5" Icon="el-icon-tickets">大数据量面积图</BMenuItem>
+                <BMenuItem Route="/line/line4" Icon="el-icon-tickets">雨量流量关系图1</BMenuItem>
+                <BMenuItem Route="/line/line6" Icon="el-icon-tickets">雨量流量关系图2</BMenuItem>
+                <BMenuItem Route="/line/line7" Icon="el-icon-tickets">北京 AQI</BMenuItem>
+                <BMenuItem Route="/line/line8" Icon="el-icon-tickets">未来一周气温变化</BMenuItem>
+                <BMenuItem Route="/line/line9" Icon="el-icon-tickets">极坐标双数值轴1</BMenuItem>
+                <BMenuItem Route="/line/line10" Icon="el-icon-tickets">极坐标双数值轴2</BMenuItem>
+            </BSubMenu>
+            <BSubMenu Label="柱状图" Icon="el-icon-folder">
+                <BMenuItem Route="/bar/bar1" Icon="el-icon-tickets">高度(km)与气温(°C)变化关系</BMenuItem>
+                <BMenuItem Route="/bar/bar2" Icon="el-icon-tickets">柱状图动画延迟</BMenuItem>
+            </BSubMenu>
+            <BSubMenu Label="饼图" Icon="el-icon-folder">
+                <BMenuItem Route="/pie/pie1" Icon="el-icon-tickets">基础饼图2</BMenuItem>
+                <BMenuItem Route="/pie/pie2" Icon="el-icon-tickets">天气情况统计</BMenuItem>
+            </BSubMenu>
+            <BSubMenu Label="雷达图" Icon="el-icon-folder">
+                <BMenuItem Route="/radar/radar1" Icon="el-icon-tickets">基础雷达图</BMenuItem>
+                <BMenuItem Route="/radar/radar2" Icon="el-icon-tickets">AQI - 雷达图</BMenuItem>
+            </BSubMenu>
+            <BSubMenu Label="K 线图" Icon="el-icon-folder">
+                <BMenuItem Route="/k/k1" Icon="el-icon-tickets">A股股票K线图</BMenuItem>
+                <BMenuItem Route="/k/k2" Icon="el-icon-tickets">A股指数K线图</BMenuItem>
+            </BSubMenu>
+            <BSubMenu Label="地理坐标/地图" Icon="el-icon-folder">
+                <BMenuItem Route="/map/map2" Icon="el-icon-tickets">中国人口分布图</BMenuItem>
+                <BMenuItem Route="/map/map1" Icon="el-icon-tickets">香港18区人口密度图</BMenuItem>
+            </BSubMenu>
+        </BMenu>
+    </Body>
+</BCard>
+
+@code{
+    [Inject]
+    NavigationManager NavigationManager { get; set; }
+
+    protected override void OnAfterRender(bool firstRender)
+    {
+        if (firstRender)
+        {
+            if (new Uri(NavigationManager.Uri).LocalPath == "/")
+            {
+                NavigationManager.NavigateTo("/line/line1");
+            }
+        }
+        base.OnAfterRender(firstRender);
+    }
+}

@@ -1,0 +1,25 @@
+﻿@page "/testradzenblazorcontrol"
+<h3>TestRadzenBlazorControl</h3>
+
+<MatSelect Label="Pick a Food Group" @bind-Value="@intValue">
+    <MatOption TValue="int" Value="0">Pie</MatOption>
+    <MatOption TValue="int" Value="1">Line</MatOption>
+    <MatOption TValue="int" Value="2">bar</MatOption>
+</MatSelect>
+
+<p />
+<ButtonRadzen textName="@textname"/>
+<p />
+<MatControlTest iconText="sync"/>
+
+<p />
+<Line_Chart />
+
+
+@code
+{
+    public string textname { get; set; } = "TestBtton";
+    public int intValue { get; set; }
+
+   
+}

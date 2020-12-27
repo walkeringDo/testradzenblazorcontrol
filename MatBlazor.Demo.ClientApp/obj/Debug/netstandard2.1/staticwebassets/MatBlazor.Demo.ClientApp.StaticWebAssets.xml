@@ -1,0 +1,5 @@
+﻿<StaticWebAssets Version="1.0">
+  <ContentRoot BasePath="/" Path="E:\c# project\Blazor\MatBlazor\MatBlazor-master\src\MatBlazor.Demo.ClientApp\bin\Debug\netstandard2.1\wwwroot\" />
+  <ContentRoot BasePath="_content/MatBlazor" Path="E:\c# project\Blazor\MatBlazor\MatBlazor-master\src\MatBlazor\wwwroot\" />
+  <ContentRoot BasePath="_content/MatBlazor.Demo" Path="E:\c# project\Blazor\MatBlazor\MatBlazor-master\src\MatBlazor.Demo\wwwroot\" />
+</StaticWebAssets>

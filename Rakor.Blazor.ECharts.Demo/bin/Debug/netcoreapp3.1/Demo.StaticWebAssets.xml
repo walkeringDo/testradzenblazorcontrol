@@ -1,0 +1,4 @@
+﻿<StaticWebAssets Version="1.0">
+  <ContentRoot BasePath="_content/Blazui.Component" Path="C:\Users\Administrator\.nuget\packages\blazui.component\0.0.6.2\build\..\staticwebassets\" />
+  <ContentRoot BasePath="_content/Rakor.Blazor.ECharts" Path="E:\c# project\Blazor\MatBlazor-master\src\Rakor.Blazor.ECharts\wwwroot\" />
+</StaticWebAssets>

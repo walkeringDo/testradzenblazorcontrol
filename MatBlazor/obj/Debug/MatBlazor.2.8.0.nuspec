@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>MatBlazor</id>
+    <version>2.8.0</version>
+    <authors>Vladimir Samoilenko</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="expression">MIT</license>
+    <licenseUrl>https://licenses.nuget.org/MIT</licenseUrl>
+    <projectUrl>https://github.com/SamProf/MatBlazor</projectUrl>
+    <iconUrl>https://raw.githubusercontent.com/SamProf/MatBlazor/master/content/icon.ico</iconUrl>
+    <description>Material Design components for Blazor and Razor Components</description>
+    <copyright>Vladimir Samoilenko</copyright>
+    <tags>blazor,mat,material, design, razor, components</tags>
+    <repository type="git" url="https://github.com/SamProf/MatBlazor" />
+    <dependencies>
+      <group targetFramework=".NETStandard2.1">
+        <dependency id="Microsoft.AspNetCore.Components" version="3.1.10" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.AspNetCore.Components.Web" version="3.1.10" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <contentFiles>
+      <files include="any/netstandard2.1/Properties/launchSettings.json" buildAction="Content" />
+    </contentFiles>
+  </metadata>
+  <files>
+    <file src="E:\c# project\Blazor\MatBlazor\MatBlazor-master\src\MatBlazor\bin\Debug\netstandard2.1\MatBlazor.dll" target="lib\netstandard2.1\MatBlazor.dll" />
+    <file src="E:\c# project\Blazor\MatBlazor\MatBlazor-master\src\MatBlazor\bin\Debug\netstandard2.1\MatBlazor.xml" target="lib\netstandard2.1\MatBlazor.xml" />
+    <file src="E:\c# project\Blazor\MatBlazor\MatBlazor-master\src\MatBlazor\obj\Debug\netstandard2.1\staticwebassets\msbuild.MatBlazor.Microsoft.AspNetCore.StaticWebAssets.props" target="build\Microsoft.AspNetCore.StaticWebAssets.props" />
+    <file src="E:\c# project\Blazor\MatBlazor\MatBlazor-master\src\MatBlazor\obj\Debug\netstandard2.1\staticwebassets\msbuild.build.MatBlazor.props" target="build\MatBlazor.props" />
+    <file src="E:\c# project\Blazor\MatBlazor\MatBlazor-master\src\MatBlazor\obj\Debug\netstandard2.1\staticwebassets\msbuild.buildMultiTargeting.MatBlazor.props" target="buildMultiTargeting\MatBlazor.props" />
+    <file src="E:\c# project\Blazor\MatBlazor\MatBlazor-master\src\MatBlazor\obj\Debug\netstandard2.1\staticwebassets\msbuild.buildTransitive.MatBlazor.props" target="buildTransitive\MatBlazor.props" />
+    <file src="E:\c# project\Blazor\MatBlazor\MatBlazor-master\src\MatBlazor\wwwroot\dist\matBlazor.css" target="staticwebassets\dist\matBlazor.css" />
+    <file src="E:\c# project\Blazor\MatBlazor\MatBlazor-master\src\MatBlazor\wwwroot\dist\matBlazor.js" target="staticwebassets\dist\matBlazor.js" />
+    <file src="E:\c# project\Blazor\MatBlazor\MatBlazor-master\src\MatBlazor\Properties\launchSettings.json" target="content\Properties\launchSettings.json" />
+    <file src="E:\c# project\Blazor\MatBlazor\MatBlazor-master\src\MatBlazor\Properties\launchSettings.json" target="contentFiles\any\netstandard2.1\Properties\launchSettings.json" />
+  </files>
+</package>

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "jNyxACRR8So7H3SVCgobQQqAgLrt9Lk2TA1db/8DCRAmEmWBqx0VFOtV5qtMxkTzE6oesd+TfndIgzLu+FIaog==",
+  "success": true,
+  "projectFilePath": "E:\\c# project\\Blazor\\MatBlazor-master\\src\\Rakor.Blazor.ECharts\\Rakor.Blazor.ECharts.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Administrator\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
